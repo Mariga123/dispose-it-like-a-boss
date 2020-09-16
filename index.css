@@ -1,11 +1,7 @@
-img{
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-}
-*{
-    background-color: green;
+body{
+    background-image: url(/images.css/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h4{
     display: flex;
@@ -16,7 +12,7 @@ h4{
     margin: 0;
     padding: 0;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .main-nav a {
     color: black;
@@ -27,7 +23,7 @@ h4{
     color: rgb(3, 3, 241);
 }
 .join-form{
-    background-color:blue;
+    /* background-color:blue; */
     align-items: inherit;
     width: 50vw;
     max-width:50%;
@@ -72,6 +68,11 @@ h4{
     background-size: cover;
     text-decoration: none;
 }
+
+.bic{
+    margin-left: 60px;
+}
+
 .container{
     text-align: center;
     font-size: 18px;
@@ -95,5 +96,27 @@ h4{
 .terms{
     font-style: italic;
     text-align-last: center;
-    font-size: 12px;
+    font-size: 13px;
+    color: white;
+}
+.product-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-wrapper .product{
+    margin: 20px 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.product-wrapper .product img{
+    width: 300px !important;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.product-wrapper .product p{
+    padding-left:10px
 }
