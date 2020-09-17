@@ -44,7 +44,7 @@ ul {
     text-align: center;
 }
 footer{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     background-color:lightblue;
     position: fixed;
