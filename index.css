@@ -1,5 +1,7 @@
 body{
-    background-image: url(img.css/bg.jpg);
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img.css/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,10 +14,10 @@ h4{
     margin: 0;
     padding: 0;
     list-style: none;
-    justify-content: space-evenly;
+    padding-left: 30%;
 }
 .main-nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 1rem;
  }
@@ -51,7 +53,7 @@ h4{
 .input-group input{
     outline: none;
     background:none;
-    border: 1px solid blue;
+    border: 1px solid white;
     font-size: 1em;
     padding: .53em;
     color:white;
@@ -119,4 +121,7 @@ h4{
 }
 .product-wrapper .product p{
     padding-left:10px
+}
+.input-group{
+    color: white;
 }
